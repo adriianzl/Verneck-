@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Especial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="clickText">Clique😍</h1>
+        <h2 id="loveText" style="display: none;">Eu te amo, Yasmim Verneck🤍🤍🤍
+vamos se assumir pra todo mundo...!</h2>
+    </div>
+
+    <script>
+        document.getElementById("clickText").onclick = function() {
+            document.getElementById("loveText").style.display = "block";
+            this.style.display = "none";
+        };
+    </script>
+</body>
+</html>
